@@ -169,7 +169,7 @@ function Work() {
                 <Swiper
                   spaceBetween={30}
                   slidesPreView={1}
-                  className="xl:p-7 xl:h-[435px] lg:h-[670px] md:h-[480px]"
+                  className="h-[290px] xl:p-7 xl:h-[435px] lg:h-[670px] md:h-[490px]"
                   onSlideChange={handleSlideChange}
                 >
                   {projects.map((project, index) => {

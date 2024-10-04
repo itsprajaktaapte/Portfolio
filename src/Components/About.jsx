@@ -20,8 +20,8 @@ function About() {
         className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
         // style={{ backgroundImage: `url(${GoldenBg})` }}
       >
-        <div className="flex flex-col p-5 md:flex-row justify-between space-y-6 md:space-y-0">
-          <div className="md:w-1/2 mt-4  space-y-2 order-2 md:order-1 xl:mt-0">
+        <div className="flex flex-col p-1 lg:flex-row justify-between space-y-6 lg:space-y-0">
+          <div className="md:w-full md:order-2 lg:w-full lg:order-1 mt-4  space-y-2 order-2  xl:mt-0">
             <div className="flex flex-row">
               <span className=" animate__animated animate__bounceIn  text-white">
                 Welcome to my portfolio{" "}
@@ -34,8 +34,8 @@ function About() {
               </h1>
               {/* <span className='text-green-900 font-bold mt-2'> Developer</span> */}
               <ReactTyped
-                className=" md:text-xl lg:text-2xl text-orange-100 font-bold animate-pulse"
-                strings={["Front-End Developer", "Web Developer", "React Developer"]}
+                className=" md:text-lg lg:text-2xl text-orange-100 font-bold animate-pulse"
+                strings={["Front-End Coder", "React Developer","UI Developer"]}
                 typeSpeed={40}
                 backSpeed={60}
                 loop={true}
@@ -49,7 +49,7 @@ function About() {
             {/* social media icons  */}
             <div className=" flex justify-between">
               <div className="space-y-2">
-                <h1 className="font-bold  text-white">you can find me on</h1>
+                <h1 className="font-bold  text-white text-sm md:text-lg lg:text-xl">you can find me on</h1>
                 <ul className="flex space-x-5">
                 <li>
                   <a href="https://github.com/itsprajaktaapte" target="_blank" rel="">
@@ -72,7 +72,7 @@ function About() {
 
               <div className="space-y-2 ">
                
-                <h1 className="font-bold text-white ">Download my Resume </h1>
+                <h1 className="font-bold text-white text-sm md:text-lg lg:text-xl ">Download my Resume </h1>
                 <button>  <a
                   href={Resume}
                   download="Prajakta_CV.pdf"
@@ -84,7 +84,7 @@ function About() {
             </div>
           </div>
 
-          <div className="md:w-1/2  order-1 md:order-2  ">
+          <div className="md:w-full md:order-1 lg:w-full lg:order2 order-1  ">
             <img
               src={profile}
               className=" lg:w-[350px] lg:mt-12 xl:mt-15 md:w-[450px] md:mx-auto mx-auto border-yellow-600 border-4 border-white rounded-full w-[250px] "
