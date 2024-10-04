@@ -12,7 +12,7 @@ function Footer() {
              {/* <li>{" "}<FaGithub className=' text-black text-xl text-3xl cursor-pointer'/></li>
              <li>{" "}<FaLinkedin className=' text-black text-xl text-3xl cursor-pointer'/></li>
              <li>{" "}<SiIndeed className=' text-black text-xl text-3xl cursor-pointer'/></li> */}
-             <span>&copy; Designed & Developed by  Prajakta Apte</span>
+             <span className='text-xs'>&copy; Designed & Developed by  Prajakta Apte</span>
            </ul>  
           
           </div>
