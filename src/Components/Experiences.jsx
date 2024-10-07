@@ -3,13 +3,12 @@ import React from 'react';
 export const Experiences = () => {
   return (
     <>
-      {/* Main container */}
+    
       <div className="relative flex justify-center flex-wrap items-center h-auto mx-auto p-4 ">
         
-        {/* Timeline line - hidden on small screens */}
+      
         <div className="absolute w-1 bg-gray-300 h-full left-1/2 transform -translate-x-1/2 hidden md:block"></div>
 
-        {/* Dots on the timeline - hidden on small screens */}
         <div className="absolute flex flex-col flex-wrap items-center justify-between h-full left-1/2 transform -translate-x-1/2 hidden md:flex">
           {/* Adjust height according to your number of experiences */}
           <div className="w-3 h-3 rounded-full bg-white"></div>
@@ -19,10 +18,10 @@ export const Experiences = () => {
           <div className="w-3 h-3 rounded-full bg-white"></div>
         </div>
 
-        {/* Experiences container */}
+      
         <div className="flex flex-col md:flex-row gap-10 md:gap-20">
 
-          {/* Left column (3 experience boxes) */}
+         
           <div className="md:w-1/2 flex flex-col flex-wrap items-end gap-10">
             <div className="w-full max-w-[250px] h-[100px] text-white/60 text-xs hover:scale-110 relative">
               <section className="p-4">
@@ -55,7 +54,7 @@ export const Experiences = () => {
             </div>
           </div>
 
-          {/* Right column (2 experience boxes) */}
+        
           <div className="md:w-1/2 flex flex-col flex-wrap items-start gap-10">
             <div className="w-full max-w-[250px] h-[100px] text-white/60 text-xs hover:scale-110 relative">
               <section className="p-4">
