@@ -43,20 +43,7 @@ export const Experiences = () => {
               </section>
             </div>
 
-            <div className="w-full max-w-[250px] h-[100px] text-white/60 text-xs hover:scale-110 relative">
-              <section className="p-4">
-                <ul>
-                  <li className="bg-black text-orange-100 p-1 rounded-md text-center">Dec 2016 - Dec 2021</li>
-                  <li className="text-orange-500 font-bold">Freelance Designer</li>
-                  <li className="text-white/60"><span className="text-yellow-600 font-bold">Skills</span> - PhotoShop, Illustrator, WordPress, Figma Design</li>
-                </ul>
-              </section>
-            </div>
-          </div>
-
-        
-          <div className="md:w-1/2 flex flex-col flex-wrap items-start gap-10">
-            <div className="w-full max-w-[250px] h-[100px] text-white/60 text-xs hover:scale-110 relative">
+          <div className="w-full max-w-[250px] h-[100px] text-white/60 text-xs hover:scale-110 relative">
               <section className="p-4">
                 <ul>
                   <li className="bg-black text-orange-100 p-1 rounded-md text-center">Dec 2021 - April 2023</li>
@@ -65,6 +52,10 @@ export const Experiences = () => {
                 </ul>
               </section>
             </div> 
+          </div>
+
+        
+          <div className="md:w-1/2 flex flex-col flex-wrap items-start gap-10">
            
             <div className="w-full max-w-[250px] h-[100px] text-white/60 text-xs hover:scale-110 relative">
               <section className="p-4">
@@ -79,9 +70,18 @@ export const Experiences = () => {
             <div className="w-full max-w-[250px] h-[100px] text-white/60 text-xs hover:scale-110 relative">
               <section className="p-4">
                 <ul>
-                  <li className="bg-black text-orange-100 p-1 rounded-md text-center">Dec 2023 - Till Now</li>
+                  <li className="bg-black text-orange-100 p-1 rounded-md text-center">Feb 2024 - April 2025</li>
                   <li className="text-orange-500 font-bold">Software Developer - MVP Studio</li>
                   <li className="text-white/60"><span className="text-yellow-600 font-bold">Skills</span> - React JS, Next JS, Framer Motion, Three JS, C#, ASP.NET CORE</li>
+                </ul>
+              </section>
+            </div>
+              <div className="w-full max-w-[250px] h-[100px] text-white/60 text-xs hover:scale-110 relative">
+              <section className="p-4">
+                <ul>
+                  <li className="bg-black text-orange-100 p-1 rounded-md text-center">May 2025 - July 2025</li>
+                  <li className="text-orange-500 font-bold">Software Developer - AvaTech</li>
+                  <li className="text-white/60"><span className="text-yellow-600 font-bold">Skills</span> - Microsoft Power Pages, Power Automate, Power BI, Dataverse, Custom Connector</li>
                 </ul>
               </section>
             </div>
