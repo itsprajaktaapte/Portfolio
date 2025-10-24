@@ -26,7 +26,7 @@ function Work() {
         { name: "React JS" },
         { name: "Mock API" },
         { name: "Context API" },
-        { name: "BootStrap" }
+        { name: "Tailwind CSS" }
       ],
       image: ReactFoodOrder,
       link: "https://github.com/itsprajaktaapte/ReactFoodOrderApp.git",
