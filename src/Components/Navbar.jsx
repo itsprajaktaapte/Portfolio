@@ -34,7 +34,7 @@ function Navbar() {
             <img src={devpic} className="h-12 w-12"></img>
             <h1 className="font-semibold text-xl cursor-pointer">
               Prajakta Apte
-              <p className="text-sm">Web Developer</p>
+              <p className="text-sm">Software Developer | Cloud Engineer</p>
             </h1>
           </div>
 
