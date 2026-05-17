@@ -42,7 +42,7 @@ function About() {
               />
             </div>
             <p className="text-justify mt-4 text-sm text-white md:text-md ">
-            <p className="text-justify">I have solid foundation in front-end technologies like HTML5, CSS3, JavaScript, and frameworks such as React and Next JS. I have extensive experience creating responsive, user-friendly, and visually appealing web interfaces using CSS Frameworks like Material UI and Tailwind CSS. My expertise also includes integrating third-party APIs, and deploying web applications on Azure or AWS.</p>
+            <p className="text-justify">I have a solid foundation in front-end technologies like HTML5, CSS3, JavaScript, and frameworks such as React and Next.js. I have extensive experience creating responsive, user-friendly web interfaces using CSS frameworks like Material UI and Tailwind CSS. My expertise also includes cloud engineering on Azure and AWS, building CI/CD pipelines, containerising applications with Docker, and deploying cloud-native solutions</p>
             <br />
 <p className="text-justify">I focus on maintaining code quality, and adhering to best practices, ensuring that your digital presence stands out and performs exceptionally. Whether you need a sleek website, a robust web application, or tailored UI components, I am here to bring your ideas to life and provide top-notch front-end solutions that align with your business goals.</p>           </p>
             
