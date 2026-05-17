@@ -35,7 +35,7 @@ function About() {
               {/* <span className='text-green-900 font-bold mt-2'> Developer</span> */}
               <ReactTyped
                 className=" md:text-lg lg:text-2xl text-orange-100 font-bold animate-pulse"
-                strings={["Front-End Coder", "React Developer","UI Developer"]}
+                strings={["Front-End Coder", "React Developer","Cloud Engineer"]}
                 typeSpeed={40}
                 backSpeed={60}
                 loop={true}
